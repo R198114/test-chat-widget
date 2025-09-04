@@ -1,22 +1,23 @@
 body{
     background: #000;
     font-family: Arial, sans-serif;
-    padding: 20px;
+    padding: 2vw;
+    min-height: 100vh;
 }
 
 /*             box nama penonton        */
 .container-nama{
-    position: absolute;     
-    top: -15px;
-    left: 30px;       
+    position: absolute;
+    top: -12px;
+    left: 25px;
     background: rgb(134, 71, 26);
     color: rgb(245, 222, 192);
     border-radius: 60px;
     font-weight: bold;
-    margin-bottom: 8px;
-    font-size: 12px;
-    width: 140px;
-    height: 25px;
+    margin-bottom: 6px;
+    font-size: 10px;
+    width: 110px;
+    height: 20px;
     border:solid rgb(165, 98, 50);
     display: flex;
     justify-content: center;
@@ -29,150 +30,283 @@ body{
 .chat{
     color: rgb(236, 172, 74);
     position: relative;
-    width: 600px;
-    min-width: 80px;
-    height: 35px;
-    border-radius: 60px;
+    width: min(90vw, 450px);
+    min-width: 65px;
+    height: auto;
+    min-height: 25px;
+    border-radius: 40px;
     outline: 0 0 0 1px dotted #a36c42;
     background-image: linear-gradient(135deg, rgb(250, 241, 158));
-    border: 3px solid rgb(245, 183, 70);
-    margin: 15px auto;
-    margin-bottom: 20px;
-    padding: 12px 20px;
+    border: 1.5px solid rgb(245, 183, 70);
+    margin: 2.5vh auto;
+    margin-bottom: 2.5vh;
+    padding: 0.8vh 1.5vw;
     align-items: center;
     display: flex;
-    margin-top: 50px;
+    margin-top: 4vh;
 }
 
 
 .chat.coklat{
     color: white;
     position: relative;
-    width: 600px;
-    min-width: 80px;
-    height: 35px;
-    border-radius: 60px;
+    width: min(90vw, 450px);
+    min-width: 65px;
+    height: auto;
+    min-height: 25px;
+    border-radius: 40px;
     outline: 0 0 0 1px dotted #a36c42;
     background:rgb(165, 98, 50);
-    border: 3px solid rgb(245, 183, 70);
-    margin: 15px auto;
-    padding: 12px 20px;
+    border: 1.5px solid rgb(245, 183, 70);
+    margin: 1vh auto;
+    padding: 0.8vh 1.5vw;
     align-items: center;
     display: flex;
-    margin-top: 50px;
+    margin-top: 6vh;
 }
 /*             box chat penonton             */
 .container-text{
-    font-size: 15px;
-    margin: 10px 0 0 35px
+    font-size: clamp(9px, 1.8vw, 12px);
+    margin: 0.6vh 0 0 2.5vw;
 }
 
 /* Element-element */
 .bucket{
-    width: 53px;
+    max-width: 46px;
+    width: auto;
     position: absolute;
-    top: 7px;
-    left: -4px;
+    top: 19px;
+    left: -7px;
+}
+.daun3kiri{
+    max-width: 36px;
+    width: auto;
+    position: absolute;
+    top: -5px;
+    left: -10px;
 }
 .coin{
-    width: 27px;
+    max-width: 16px;
+    width: auto;
     position: absolute;
-    top: -13px;
-    left: 32px;
+    top: -11px;
+    left: 22px;
 }
 .bintangatas{
-    width: 15px;
+    max-width: 10px;
+    width: auto;
     position: absolute;
-    top: -19px;
-    left: 18px;
+    top: -12px;
+    left: 13px;
 }
 .pita{
-    width: 55px;
+    max-width: 34px;
+    width: auto;
     position: absolute;
-    top: -28px;
-    left: 140px;
+    top: -18px;
+    left: 90px;
     rotate: 26deg;
 }
 .koki{
-    width: 38px;
+    max-width: 24px;
+    width: auto;
     position: absolute;
-    top: -37px;
-    left: 151px;
+    top: -23px;
+    left: 97px;
     rotate: 26deg;
 }
 .daun{
-    width: 70px;
+    max-width: 44px;
+    width: auto;
     position: absolute;
-    top: -35px;
-    right: 80px;
+    top: -22px;
+    right: 51px;
     rotate: -140deg;
 }
 .daun3{
-    width: 80px;
+    max-width: 51px;
+    width: auto;
     position: absolute;
-    top: -45px;
-    right: -16px;
+    top: -29px;
+    right: -10px;
     rotate: -160deg;
 }
 .daunbawah{
-    width: 75px;
+    max-width: 48px;
+    width: auto;
     position: absolute;
-    top: 27px;
-    right: 20px;
+    top: 30px;
+    right: 13px;
     rotate: -140deg;
     z-index: 2;
 }
 .daunmini{
-    width: 24px;
+    max-width: 15px;
+    width: auto;
     position: absolute;
-    top: 21px;
-    right: -12px;
+    top: 20px;
+    right: -8px;
     rotate: 220deg;
 }
 .kayu{
-    width: 80px;
+    max-width: 51px;
+    width: auto;
     position: absolute;
-    top: -34px;
-    right: 30px;
+    top: -22px;
+    right: 18px;
     z-index: -1;
 }
 .note{
-    width: 60px;
+    max-width: 38px;
+    width: auto;
     position: absolute;
-    top: -18px;
-    right: 39px;
+    top: -11px;
+    right: 25px;
 }
 .bintang{
-    width: 18px;
+    max-width: 11px;
+    width: auto;
     position: absolute;
-    top: 52px;
-    right: -6px;
+    top: 43px;
+    right: -4px;
     rotate: 185deg;
 }
 .love{
-    width: 24px;
+    max-width: 15px;
+    width: auto;
     position: absolute;
-    top: 50px;
-    right: 12px;
+    top: 43px;
+    right: 8px;
     z-index: 3;
 }
 .ranting{
-    width: 250px;
+    max-width: 160px;
+    width: auto;
     position: absolute;
-    top: -22px;
-    right: 20px;
+    top: -2px;
+    right: 13px;
     rotate: 187deg;
     z-index: 1;
 }
-.garis{
-    width: 350px;
-    position: absolute;
-    top: -20px;
-    left: 360px;
-}
 /* Element-element */
 
-
+.text{
+    margin-left: 20px;
+}
 .nama{
     margin-right: 16px;
+}
+
+@media (min-width: 769px) {
+    .chat, .chat.coklat {
+        width: min(95vw, 1000px);
+        margin-top: 5vh;
+        margin-bottom: 4vh;
+        padding: 2vh 3vw;
+    }
+
+    .container-nama {
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+        left: 35px;
+        top: -18px;
+    }
+
+    .container-text {
+        font-size: clamp(14px, 2.5vw, 16px);
+        margin-left: 5vw;
+    }
+
+    .bucket { max-width: 60px; top: 35px; left: -5px; }
+    .coin { max-width: 30px; top: -18px; left: 35px; }
+    .bintangatas { max-width: 18px; top: -22px; left: 20px; }
+    .pita { max-width: 65px; top: -32px; left: 160px; }
+    .koki { max-width: 42px; top: -40px; left: 170px; }
+    .daun { max-width: 80px; top: -40px; right: 90px; }
+    .daun3 { max-width: 90px; top: -50px; right: 20px; }
+    .daunbawah { max-width: 85px; top: 55px; right: 25px; }
+    .daunmini { max-width: 28px; top: 35px; right: 10px; }
+    .kayu { max-width: 90px; top: -38px; right: 32px; }
+    .note { max-width: 70px; top: -20px; right: 45px; }
+    .bintang { max-width: 20px; top: 75px; right: 10px; }
+    .love { max-width: 28px; top: 75px; right: 15px; }
+    .ranting { max-width: 280px; top: -3px; right: 25px; }
+}
+
+@media (max-width: 768px) {
+    .chat, .chat.coklat {
+        width: min(95vw, 500px);
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+        padding: 1vh 2vw;
+    }
+
+    .container-nama {
+        width: 120px;
+        height: 20px;
+        font-size: 10px;
+        left: 20px;
+        top: -10px;
+    }
+
+    .container-text {
+        font-size: clamp(10px, 2vw, 14px);
+        margin-left: 3vw;
+    }
+
+    .bucket { max-width: 40px; top: 20px; left: -3px; }
+    .coin { max-width: 20px; top: -12px; left: 25px; }
+    .bintangatas { max-width: 12px; top: -15px; left: 15px; }
+    .pita { max-width: 40px; top: -20px; left: 120px; }
+    .koki { max-width: 30px; top: -25px; left: 130px; }
+    .daun { max-width: 50px; top: -25px; right: 60px; }
+    .daun3 { max-width: 60px; top: -30px; right: -10px; }
+    .daunbawah { max-width: 55px; top: 35px; right: 15px; }
+    .daunmini { max-width: 18px; top: 25px; right: -8px; }
+    .kayu { max-width: 60px; top: -25px; right: 20px; }
+    .note { max-width: 45px; top: -15px; right: 30px; }
+    .bintang { max-width: 14px; top: 50px; right: -5px; }
+    .love { max-width: 18px; top: 50px; right: 10px; }
+    .ranting { max-width: 180px; top: -1px; right: 15px; }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 1vw;
+    }
+
+    .chat, .chat.coklat {
+        width: min(98vw, 400px);
+        margin-bottom: 11vh;
+        padding: 1vh 1.5vw;
+    }
+
+    .container-nama {
+        width: 100px;
+        height: 18px;
+        font-size: 9px;
+        left: 15px;
+        top: -8px;
+    }
+
+    .container-text {
+        font-size: clamp(9px, 2.5vw, 12px);
+        margin-left: 2vw;
+    }
+
+    .bucket { max-width: 35px; top: 15px; left: -2px; }
+    .coin { max-width: 18px; top: -10px; left: 20px; }
+    .bintangatas { max-width: 10px; top: -12px; left: 12px; }
+    .pita { max-width: 35px; top: -18px; left: 100px; }
+    .koki { max-width: 25px; top: -20px; left: 110px; }
+    .daun { max-width: 40px; top: -20px; right: 50px; }
+    .daun3 { max-width: 40px; top: -20px; right: -8px; }
+    .daunbawah { max-width: 45px; top: 35px; right: 12p;}
+    .daunmini { max-width: 15px; top: 20px; right: -6px; }
+    .kayu { max-width: 50px; top: -20px; right: 15px; }
+    .note { max-width: 35px; top: -12px; right: 25px; }
+    .bintang { max-width: 12px; top: 40px; right: -4px; }
+    .love { max-width: 15px; top: 48px; right: 8px; }
+    .ranting { max-width: 120px; top: 18px; right: 10px; } 
 }
