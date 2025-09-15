@@ -1,0 +1,183 @@
+body{
+    font-family: sans-serif;
+    background: #fdfcfc;
+}
+.container-nama{
+    background: #B9C6FF;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    width: fit-content; 
+    max-width: 90%;
+    min-width: 5%;
+    max-height: 30%;
+    left: 5px;
+    top: -12px;
+    font-size: 15px;
+    position: absolute;
+    z-index: 2;
+}
+.nama{
+    position: relative;
+    display: flex;
+}
+.hijau{
+    background: #88E0A4;
+}
+.merah{
+    background: #FF6666;
+    left: 100px;
+}
+.wrap{
+    background: rgb(248, 248, 248);
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    min-width: 25%;
+    max-width: 90%;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    border-radius: 25px;
+    display: flex;
+    border-bottom: 8px solid #B9C6FF ;
+}
+.container-dashed{
+    position: absolute;
+    border: 2px dashed #B9C6FF;
+    width: 100%;
+    height: 95%;
+    border-radius: 25px;
+    top: 0;
+    left: 0;
+}
+.ijo{
+    border-bottom: 8px solid #88E0A4;
+}
+.ijo2{
+    border: none;
+}
+.red{
+    border-bottom: 8px solid #FF6666;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.red2{
+    border: 2px dashed #FF6666;
+}
+.nama{
+    font-weight: bold;
+    font-size: 15px;
+}
+.container-teks{
+    font-weight: bold;
+    margin: 20px 25px 0 20px;
+    font-size: 12px;
+}
+.garis{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.sword{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(8px, -50%);
+    width: 23px;
+    border-radius: 5px;
+    z-index: 2;
+}
+.crown{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(8px, -50%);
+    width: 23px;
+    border-radius: 5px;
+    z-index: 2;
+}
+.star-bawah{
+    position: absolute;
+    bottom: 5px;
+    left: 40px;
+    width: 12px;
+    max-width: 12px;
+    min-width: 12px;
+}
+.egg{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 45px;
+    max-width: 45px;
+    min-width: 45px;
+}
+.starri{
+    position: absolute;
+    bottom: -8px;
+    left: -5px;
+    width: 30px;
+    max-width: 30px;
+    min-width: 35;
+    z-index: 2;
+}
+.starnan{
+    position: absolute;
+    top: -15px;
+    right: -9px;
+    width: 35px;
+    max-width: 35px;
+    min-width: 35px;
+    z-index: 3;
+}
+.starmini-bawah1{
+    position: absolute;
+    bottom: 4px;
+    left: 37px;
+    width: 6px;
+    max-width: 6px;
+    min-width: 6px;
+}
+.starmini-bawah2{
+    position: absolute;
+    bottom: 0px;
+    left: 48px;
+    width: 8px;
+    max-width: 8px;
+    min-width: 8px;
+}
+.star-atas{
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    width: 12px;
+    max-width: 12px;
+    min-width: 12px;
+    z-index: 3;
+}
+.starmini-atas1{
+    position: absolute;
+    top: -5px;
+    right: -1px;
+    width: 8px;
+    max-width: 8px;
+    min-width: 8px;
+}
+.starmini-atas2{
+    position: absolute;
+    top: 8px;
+    right: 2px;
+    width: 6px;
+    max-width: 6px;
+    min-width: 6px;
+}
