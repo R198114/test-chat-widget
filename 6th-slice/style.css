@@ -30,6 +30,7 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     width: fit-content;
+    align-items: center;
     margin-bottom: 50px;
     min-width: 40%;
     max-width: 90%;

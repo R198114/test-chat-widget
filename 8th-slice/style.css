@@ -1,0 +1,107 @@
+body{
+    font-family: sans-serif;
+    background: #000000;
+}
+.container-nama{
+    background: linear-gradient(to left, #4D3887 0%, #6F4AA1 100%);
+    color: #F5F5F5;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    width: fit-content; 
+    max-width: 95%;
+    min-width: 50%;
+    max-height: 30px;
+    left: 48px;
+    top: -35px;
+    border: 1px #ffff solid;
+    font-size: 15px;
+    position: absolute;
+    z-index: 2;
+}
+.nama{
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+}
+.wrap{
+    justify-content: center;
+    background: linear-gradient(to left, #B286E3 0%, #724AA3 50%, #412F7C 100%);
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    margin-bottom: 50px;
+    min-width: 50%;
+    max-width: 90%;
+    margin-top: 45px;
+    margin-left: 25px;
+    border-radius: 15px;
+    display: flex;
+    border: 2px solid #ffff ;
+    box-shadow: 0px 1px 5px 1px #000000 inset;
+}
+.second{
+    background: linear-gradient(to right, #B286E3 0%, #724AA3 50%, #412F7C 100%);
+}
+.container-teks{
+    font-weight: bold;
+    margin: 0px 25px 0px 20px;
+    font-size: 12px;
+    color: white;
+    z-index: 2;
+}
+.icone{
+    position: absolute;
+    top: -32px;
+    left: -1px;
+    width: 43px;
+}
+.bunganan{
+    position: absolute;
+    right: 25px;
+    top: -9px;
+}
+.bungari{
+    position: absolute;
+    left: -5px;
+    bottom: -7px;
+    width: 40px;
+}
+.hiasan2{
+    position: absolute;
+    left: -5px;
+    top: -6px;
+    width: 45px;
+}
+.bulanan{
+    position: absolute;
+    width: 40px;
+    right: -6px;
+    bottom: -6px;
+    rotate: 260deg;
+}
+.hiasan{
+    position: absolute;
+    right: -5px;
+    top: -6px;
+    width: 45px;
+}
+.hiasand{
+    position: absolute;
+    left: -25px;
+}
+.donate{
+    margin-left: 105px;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+span{
+    color: #D5B0FD;
+}
