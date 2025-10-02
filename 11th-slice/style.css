@@ -1,10 +1,12 @@
 body{
     font-family: sans-serif;
-    background: #000000;
+    align-items: center;
+    background: linear-gradient(#BCD8F8 11%, #86B6EC 43%, #619BDE 63%);
 }
 .container-nama{
     color: black;
-    border-radius: 5px;
+    background: #F9C0BF;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,9 +15,10 @@ body{
     box-sizing: border-box;
     width: fit-content; 
     max-width: 95%;
-    min-width: 50%;
+    min-width: 30%;
     max-height: 30px;
-    top: -16px;
+    top: -20px;
+    right: 30px;
     font-size: 15px;
     position: absolute;
     z-index: 2;
@@ -24,8 +27,8 @@ body{
     position: absolute;
     width: 100%;
 }
-.kotaknama2{
-    left: 30px;
+.nama2{
+    left: 35px;
 }
 .nama{
     position: relative;
@@ -39,30 +42,41 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     width: fit-content;
-    margin-bottom: 50px;
     min-width: 70%;
     max-width: 100%;
-    margin-top: 45px;
-    margin-left: 25px;
+    margin: 30px;
     border-radius: 50px;
     align-items: center;
     display: flex;
-    border: 1px solid #E2C180 ;
-    background: #84551F;
+    background: white;
+    color: black;
 }
 .donate{
-    background: none;
-    border: none;
     margin: 0 auto 30px auto;
+    min-width: 50%;
+    background: none;
+    border: 2px solid white;
+    box-shadow: 0px 1px 3px 0px white;
 }
 .second{
-    background: linear-gradient(to right, #B286E3 0%, #724AA3 50%, #412F7C 100%);
+    float: right;
+}
+.third{
+    float: right;
+    background:white url(img/bg.svg) no-repeat;
+    background-size: cover;
 }
 .container-teks{
     font-weight: bold;
-    margin: 0px 25px 0px 20px;
+    margin: 0px 25px 0px 45px;
     font-size: 12px;
+    z-index: 2;
+}
+.container-teks-donate{
+    text-align: center;
     color: white;
+    font-weight: bold;
+    font-size: 12px;
     z-index: 2;
 }
 .icone{
@@ -70,49 +84,36 @@ body{
     bottom: 23px;
     left: -20px;
 }
-.hnan{
+.kodok{
     position: absolute;
-    right: -22px;
-    top: -7px;
+    right: -13px;
+    top: 7px;
 }
-.hnanb{
+.bungari{
     position: absolute;
-    bottom: -7px;
-    right: -22px;
+    left: 0px;
+    bottom: -4px;
 }
-.hnand{
+.bungari2{
     position: absolute;
-    right: -8px;
+    left: -2px;
+    bottom: -3px;
+}
+.bunganan{
+    position: absolute;
+    right: -3px;
     bottom: -1px;
 }
-.hri{
+.bt{
     position: absolute;
-    left: -22px;
-    top: -7px;
+    right: -30px;
+    top: -55px;
 }
-.hrib{
+.profile{
     position: absolute;
-    left: -22px;
-    bottom: -7px;
+    left: -48px;
 }
-.hrid{
+.profile2{
     position: absolute;
-    left: -8px;
-    bottom: -1px;
-}
-.hmid{
-    position: absolute;
-    bottom: -24px;
-}
-.hmid2{
-    position: absolute;
-    bottom: -12px;
-}
-.hmid3{
-    position: absolute;
-    bottom: -16px;
-}
-span{
-    color: #84551F;
-    margin-left: 20px;
+    right: -48px;
 }
