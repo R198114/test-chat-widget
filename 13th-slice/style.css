@@ -1,0 +1,219 @@
+body {
+    font-family: sans-serif;
+    background: #F9C0BF;
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+    gap: 60px;                  
+    padding: 20px;             
+    min-height: 100vh;         
+}
+.container-nama{
+    color: #A64344;
+    background: #f86f8665;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    width: fit-content; 
+    max-width: 95%;
+    min-width: 50%;
+    max-height: 30px;
+    top: -35px;
+    right: 35px;
+    font-size: 15px;
+    position: absolute;
+    z-index: 2;
+}
+.kotaknama{
+    position: absolute;
+    width: 100%;
+}
+.nama2{
+    left: 35px;
+}
+.nama{
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+}
+.wrap {
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    min-width: 40%;
+    max-width: 80%;
+    margin: 0 auto;        
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    outline: #FFCCD5 solid 4px;
+    border: 1px solid white;
+    background: #FFCCD5;
+    color: black;
+}
+.donate {
+    margin: 0 auto;      
+    min-width: 60%;
+    outline: none;
+    background: #F9C0BF;
+    border: 2px solid white;
+}
+.second{
+    background: white;
+    border: #F9C0BF 2px solid;
+    outline: white solid 4px;
+    align-self: flex-end;
+    max-width: 80%;
+}
+.third{
+    background: #F86F85;
+    outline: #F86F85 solid 4px;
+}
+.fourth{
+    background: linear-gradient(#F6C5C7 5%, #FF969A 56%, #F6C5C7 100%);
+    border: #FFA3A3 1px solid;
+    outline: none;
+    box-shadow:0px 1px 6px 0px white inset;
+    align-self: flex-end;
+    max-width: 80%;
+}
+.container-teks{
+    font-weight: lighter;
+    margin: 0px 25px 0px 25px;
+    font-size: 10px;
+    z-index: 2;
+}
+.container-teks-donate{
+    text-align: center;
+    color: #A64344;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 2;
+}
+.icones{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 10px;
+}
+.knan{
+    position: absolute;
+    right: -5px;
+    top: -15px;
+}
+.kri{
+    position: absolute;
+    left: -8px;
+    bottom: -8px;
+}
+.mid{
+    position: absolute;
+    bottom: -64px;
+}
+.snan{
+    position: absolute;
+    right: -48px;
+    top: -20px;
+    width: 50px;
+    z-index: -1;
+}
+.sri{
+    position: absolute;
+    left: -48px;
+    top: -20px;
+    width: 50px;
+    z-index: -1;
+}
+.kp{
+    position: absolute;
+    top: -25px;
+    right: -5px;
+    width: 50px;
+}
+.pita{
+    position: absolute;
+    left: -10px;
+    bottom: -30px;
+    width: 55px;
+}
+.pitacil{
+    position: absolute;
+    right: 5px;
+    bottom: -18px;
+    width: 35px;
+}
+.bunga{
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    width: 50px;
+}
+.kp2{
+    right: 25px;
+}
+.kp3{
+    position: absolute;
+    top: -30px;
+    left: -13px;
+}
+.bri{
+    position: absolute;
+    left: -3px;
+    top: -13px;
+    rotate: 180deg;
+}
+.bnan{
+    position: absolute;
+    right: -3px;
+    bottom: -13px;
+}
+.bucket{
+    position: absolute;
+    left: -16px;
+    bottom: -3px;
+    width: 50px;
+}
+.lovek{
+    position: absolute;
+    width: 15px;
+    top: -10px;
+    left: 55px;
+}
+.lovek2{
+    position: absolute;
+    top: -8px;
+    left: 70px;
+    width: 10px;
+    rotate: -25deg;
+}
+.lovekn{
+    position: absolute;
+    width: 15px;
+    bottom: 2px;
+    right: 55px;
+    rotate: 25deg;
+}
+.lovekn2{
+    position: absolute;
+    bottom: 0px;
+    right: 45px;
+    width: 10px;
+}
+.jumlah-tips{
+    color: white;
+}
+.profile{
+    position: absolute;
+    left: -54px;
+}
+.profile2{
+    position: absolute;
+    right: -55px;
+}
