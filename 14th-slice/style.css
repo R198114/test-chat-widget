@@ -1,0 +1,173 @@
+body {
+    font-family: sans-serif;
+    background: #235524;
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+    gap: 45px;                  
+    padding: 20px;             
+    min-height: 100vh;         
+}
+.container-nama{
+    color: #ffffff;
+    background: linear-gradient(#2E5630 0%, #5AA85F 42%, #64BC6A 100%);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    width: fit-content; 
+    max-width: 95%;
+    min-width: 50%;
+    max-height: 30px;
+    top: -20px;
+    font-size: 15px;
+    position: absolute;
+    z-index: 2;
+}
+.kotaknama{
+    position: absolute;
+    width: 100%;
+}
+.nama2{
+    background: linear-gradient(to right, #D92211 0%, #E23A29 42%, #FF7D64 100%);
+}
+.nama{
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+}
+.wrap {
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    min-width: 40%;
+    max-width: 80%;
+    margin: 0 auto;        
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 1px 4px 0px white inset;
+    background: linear-gradient( to right,#E23A29 17%, #FF7D64 50%, #D92211 92%);
+    color: white;
+}
+.donate {
+    margin: 0 auto;      
+    min-width: 60%;
+    outline: none;
+    background: none;
+    border: 2px solid white;
+    box-shadow: none;
+}
+.second{
+    color: black;
+    background: white;
+    align-self: flex-end;
+    max-width: 80%;
+}
+.third{
+    max-width: 80%;
+    align-self: flex-end;
+    background: linear-gradient(to right, #2E5630 0%, #64BC6A 50%, #5AA85F 100%);
+}
+.fourth{
+    background: linear-gradient(#F6C5C7 5%, #FF969A 56%, #F6C5C7 100%);
+    border: #FFA3A3 1px solid;
+    outline: none;
+    box-shadow:0px 1px 6px 0px white inset;
+    align-self: flex-end;
+    max-width: 80%;
+}
+.container-teks{
+    font-weight: lighter;
+    margin: 0px 25px 0px 25px;
+    font-size: 10px;
+    z-index: 2;
+}
+.container-teks-donate{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 2;
+}
+.icones{
+    position: absolute;
+    bottom: 5px;
+    right: -45px;
+}
+.hiasan{
+    position: absolute;
+    left: 6px;
+    top: -5px;
+}
+.hiasan2{
+    position: absolute;
+    left: 6px;
+    top: -2px;
+}
+.hsrt{
+    position: absolute;
+    right: 6px;
+    top: -5px;
+}
+.hinan{
+    position: absolute;
+    right: 0px;
+    bottom: -18px;
+}
+.hinan2{
+    position: absolute;
+    right: 6px;
+    bottom: -2px;
+}
+.hinan3{
+    position: absolute;
+    top: -5px;
+    right: -2px;
+}
+.hiri{
+    position: absolute;
+    left: -8px;
+    bottom: -5px;
+}
+.hiri2{
+    position: absolute;
+    left: 2px;
+    bottom: 0px;
+}
+.hiri3{
+    position: absolute;
+    left: -25px;
+}
+.tl{
+    position: absolute;
+    left: -5px;
+    top: -10px;
+}
+.tl2{
+    position: absolute;
+    left: 2px;
+    top: -20px;
+}
+.mid{
+    position: absolute;
+    bottom: -10px;
+}
+.mid2{
+    position: absolute;
+    bottom: -55px;
+}
+.profile{
+    position: absolute;
+    left: -54px;
+}
+.profile2{
+    position: absolute;
+    right: -55px;
+}
