@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    background: #2D2233;
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+    gap: 45px;                  
+    padding: 20px;             
+    min-height: 100vh;         
+}
+.container-nama{
+    color: #000000;
+    background: #311855;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    width: fit-content;
+    right: 30px;
+    top: 5px;
+    max-width: 95%;
+    min-width: 30%;
+    max-height: 20px;
+    position: absolute;
+    z-index: 2;
+}
+.nama2{
+    left: 30px;
+    background:#563189;
+}
+.nama{
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    font-size: 10px;
+}
+.wrap {
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    min-width: 50%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 25px 0px;        
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    align-self: flex-end;
+    border: 1px solid black;
+    background: linear-gradient( to right,#A260C8 37%, #773296 60%, #581F7D 100%);
+    color: rgb(0, 0, 0);
+}
+.donate {
+    margin: 0 auto;      
+    min-width: 60%;
+    padding: 0px;
+    outline: none;
+    background: none;
+    border: 1px solid white;
+    box-shadow: 0px 1px 4px 2px white;
+}
+.second{
+    background: linear-gradient(to right, #47205E 37%, #361246 60%, #1A032A 100%);
+    max-width: 80%;
+}
+.container-teks{
+    font-weight: bold;
+    margin: 0px 45px 0px 45px;
+    font-size: 10px;
+    z-index: 2;
+}
+.container-teks-donate{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 2;
+}
+.tr{
+    position: absolute;
+    right: -30px;
+    width: 70px;
+    top: -18px;
+}
+.tr2{
+    width: 50px;
+    right: -10px;
+}
+.br{
+    position: absolute;
+    right: -15px;
+    width: 60px;
+    bottom: -4px;
+}
+.br2{
+    right: -6px;
+}
+.bl{
+    position: absolute;
+    width: 50px;
+    left: -8px;
+    bottom: -5px;
+}
+.bl2{
+    left: 0px;
+    bottom: -2px;
+}
+.tl{
+    position: absolute;
+    width: 50px;
+    left: -5px;
+    top: 0px;
+}
+.tl2{
+    position: absolute;
+    left: 2px;
+    top: -20px;
+}
+.tl3{
+    width: 80px;
+    top: -12px;
+    left: -15px;
+}
+.profile{
+    position: absolute;
+    width: 50px;
+    left: -54px;
+}
+.profile2{
+    position: absolute;
+    width: 50px;
+    right: -55px;
+}
+.nama-pengirim{
+    color: #581F7D;
+}
