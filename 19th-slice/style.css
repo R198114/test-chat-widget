@@ -1,0 +1,248 @@
+body {
+    font-family: sans-serif;
+    background: #F9D1F0;
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+    gap: 40px;                  
+    padding: 20px;             
+    min-height: 100vh;         
+}
+.container-nama {
+    color: #ffffff;
+    background: #FFB3E6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    min-width: 30%;
+    max-width: 90%;
+    max-height: 15px;
+    position: absolute;
+    right: 15px;
+    top: -8px;
+    z-index: 2;
+    clip-path: polygon(
+        0% 0%,       
+        8% 0%,     
+        12% 50%,     
+        8% 100%,     
+        0% 100%,
+
+        100% 100%,   
+        92% 100%,    
+        88% 50%,     
+        92% 0%,      
+        100% 0%      
+    );
+}
+.container-nama2 {
+    color: #DFA1C8;
+    background: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    min-width: 30%;
+    max-width: 90%;
+    max-height: 15px;
+    position: absolute;
+    left: 15px;
+    top: -8px;
+    z-index: 2;
+    clip-path: polygon(
+        0% 0%,       
+        8% 0%,       
+        12% 50%,     
+        8% 100%,     
+        0% 100%,     
+        100% 100%,   
+        92% 100%,    
+        88% 50%,     
+        92% 0%,     
+        100% 0%   
+    );
+}
+.v2{
+    color: #ffffff;
+    background: #FFB3E6;
+}
+.nama{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 7px;
+}
+.wrap {
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    min-width: 60%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 10px 0px;        
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    outline: 5px solid #DFA1C8;
+    border: 1px dashed #ffffff;
+    background: #DFA1C8;
+    color: #ffffff;
+}
+.wrap2{
+    color: #DFA1C8;
+    outline: 5px solid #ffffff;
+    border: 1px dashed #DFA1C8;
+    background: #ffffff;
+}
+.donate {
+    margin: 0 auto;      
+    min-width: 60%;
+    padding: 0px;
+    background: none;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #F6F600;
+}
+.container-teks{
+    font-weight: bold;
+    margin: 0px 45px 0px 45px;
+    font-size: 10px;
+    z-index: 2;
+}
+.container-teks-donate{
+    text-align: center;
+    color: #2E5630;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 2;
+}
+.tr{
+    position: absolute;
+    right: -10px;
+    width: 25px;
+    top: -15px;
+}
+.tr2{
+    width: 30px;
+    right: 18px;
+    top: -15px;
+}
+.tr3{
+    width: 60px;
+    top: -30px;
+    right: -25px;
+}
+.tr4{
+    right: 5px;
+    top: -10px;
+}
+.tr5{
+    top: -30px;
+    right: 45px;
+}
+.tr6{
+    width: 80px;
+    top: -35px;
+    right: -25px;
+}
+.br{
+    position: absolute;
+    right: -20px;
+    width: 45px;
+    bottom: -6px;
+}
+.br2{
+    width: 45px;
+    right: -15px;
+    bottom: -8px;
+}
+.br3{
+    width: 100px;
+    bottom: -16px;
+    right: -12px;
+}
+.br4{
+    width: 100px;
+    right: -26px;
+    bottom: -12px;
+}
+.bl{
+    position: absolute;
+    width: 30px;
+    left: -13px;
+    bottom: -12px;
+}
+.bl2{
+    width: 100px;
+    left: -15px;
+    bottom: -16px;
+}
+.bl3{
+    width: 45px;
+    bottom: -7px;
+    left: -12px;
+}
+.bl4{
+    width: 45px;
+    bottom: -7px;
+    left: -18px;
+}
+.bl5{
+    bottom: -1px;
+    left: -2px;
+}
+.tl{
+    position: absolute;
+    width: 100px;
+    left: -21px;
+    top: -33px;
+}
+.tl2{
+    width: 35px;
+    left: -15px;
+    top: -20px;
+}
+.tl3{
+    width: 50px;
+    top: -32px;
+    left: 20px;
+}
+.tl4{
+    width: 50px;
+    left: -12px;
+    top: -20px;
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: -55px;
+    left: 0;
+}
+.mid{
+    position: absolute;
+    width: 80px;
+    top: -55px;
+}
+.profile{
+    position: absolute;
+    width: 50px;
+    left: -60px;
+}
+.profile2{
+    position: absolute;
+    width: 50px;
+    right: -60px;
+}
+.nama-pengirim{
+    color: #b3b30f;
+}
