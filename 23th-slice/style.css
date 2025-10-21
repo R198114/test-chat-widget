@@ -4,14 +4,14 @@ body {
     display: flex;              
     flex-direction: column;     
     align-items: center;        
-    gap: 60px;                  
+    gap: 35px;                  
     padding: 20px;             
     min-height: 100vh;         
 }
 .container-nama {
     color: #ffffff;
-    background: #3B1D1D;
-    border-radius: 15px;
+    background: #000;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,14 +21,14 @@ body {
     max-width: 90%;
     max-height: 15px;
     position: absolute;
-    right: 45px;
-    top: -5px;
+    right: 30px;
+    top: 7px;
     z-index: 2;
 }
 .container-nama2 {
     color: #ffffff;
-    background: #3B1D1D;
-    border-radius: 15px;
+    background: #000;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,13 +39,13 @@ body {
     max-height: 15px;
     position: absolute;
     left: 30px;
-    top: -2px;
+    top: 7px;
     z-index: 2;
 }
 .container-nama3 {
-    color: #ffffff;
-    background: #3B1D1D;
-    border-radius: 15px;
+    color: #000;
+    background: #fff;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,8 +55,8 @@ body {
     max-width: 90%;
     max-height: 15px;
     position: absolute;
-    right: 25px;
-    top: 2px;
+    left: 30px;
+    top: 7px;
     z-index: 2;
 }
 .bg-nama{
@@ -72,22 +72,27 @@ body {
     font-size: 7px;
 }
 .wrap {
-    justify-content: center;
-    position: relative;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: fit-content;
-    min-width: 60%;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 10px 0px;        
-    border-radius: 12px;
-    align-items: center;
-    display: flex;
-    color: #000000;
+  background: none;
+  position: relative;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: fit-content;
+  min-width: 60%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 16px 45px;
+  background-image: url('img/kotak.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
+
 .wrap2{
-    color: #000000;
+    color: #fff;
+    background-image: url('img/kotak2.svg');
 }
 .bg-chat{
     position: absolute;
@@ -105,12 +110,17 @@ body {
 .bg-donate{
     position: absolute;
     width: 100%;
-    left: -3px;
+    left: 0px;
+}
+.bg-donate2{
+    position: absolute;
+    width: 100%;
+    top: -90px;
+    left: 0;
 }
 .container-teks{
     font-weight: bold;
-    margin: 0px 45px 0px 45px;
-    font-size: 10px;
+    font-size: 8px;
     z-index: 2;
 }
 .container-teks-donate{
@@ -122,9 +132,9 @@ body {
 }
 .tr{
     position: absolute;
-    right: -10px;
-    width: 45px;
-    top: -18px;
+    right: 10px;
+    width: 25px;
+    top: 5px;
 }
 .tr2{
     width: 45px;
@@ -151,9 +161,9 @@ body {
 }
 .br{
     position: absolute;
-    right: -13px;
-    width: 50px;
-    bottom: -10px;
+    right: 13px;
+    width: 25px;
+    bottom: 15px;
     z-index: 2;
 }
 .br2{
@@ -174,14 +184,15 @@ body {
 }
 .bl{
     position: absolute;
-    width: 50px;
-    left: -9px;
-    bottom: -5px;
+    width: 20px;
+    left: 12px;
+    bottom: 16px;
+    z-index: 2;
 }
 .bl2{
     width: 35px;
-    left: -9px;
-    bottom: -2px;
+    left: 9px;
+    bottom: 12px;
 }
 .bl3{
     width: 65px;
@@ -200,8 +211,8 @@ body {
 .tl{
     position: absolute;
     width: 45px;
-    left: -12px;
-    top: -18px;
+    left: -2px;
+    top: -8px;
 }
 .tl2{
     width: 50px;
@@ -231,6 +242,18 @@ body {
     bottom: -2px;
     z-index: 1;
 }
+.bottoml{
+    position: absolute;
+    width: 120px;
+    bottom: 10px;
+    left: 15px;
+}
+.bottomr{
+    position: absolute;
+    width: 120px;
+    bottom: 10px;
+    right: 15px;
+}
 .icone{
     position: absolute;
     width: 25px;
@@ -248,12 +271,12 @@ body {
 .profile{
     position: absolute;
     width: 50px;
-    left: -60px;
+    left: -40px;
 }
 .profile2{
     position: absolute;
     width: 50px;
-    right: -60px;
+    right: -40px;
 }
 .nama-pengirim{
     color: #9A0D0D;

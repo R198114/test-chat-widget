@@ -1,62 +1,45 @@
 body {
     font-family: sans-serif;
-    background: #ffffff;
+    background: #C24040;
     display: flex;              
     flex-direction: column;     
     align-items: center;        
-    gap: 60px;                  
+    gap: 55px;                  
     padding: 20px;             
     min-height: 100vh;         
 }
 .container-nama {
     color: #ffffff;
-    background: #3B1D1D;
+    background: #AABFEB;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    min-width: 20%;
+    min-width: 30%;
     max-width: 90%;
     max-height: 15px;
     position: absolute;
-    right: 45px;
-    top: -5px;
+    right: 15px;
+    top: -10px;
     z-index: 2;
 }
 .container-nama2 {
     color: #ffffff;
-    background: #3B1D1D;
+    background: #AABFEB;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    min-width: 20%;
+    min-width: 30%;
     max-width: 90%;
     max-height: 15px;
     position: absolute;
-    left: 30px;
-    top: -2px;
-    z-index: 2;
-}
-.container-nama3 {
-    color: #ffffff;
-    background: #3B1D1D;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    min-width: 20%;
-    max-width: 90%;
-    max-height: 15px;
-    position: absolute;
-    right: 25px;
-    top: 2px;
+    left: 15px;
+    top: -10px;
     z-index: 2;
 }
 .bg-nama{
@@ -80,22 +63,20 @@ body {
     min-width: 60%;
     max-width: 80%;
     margin: 0 auto;
+    margin-top: 15px;
     padding: 10px 0px;        
-    border-radius: 12px;
+    border-radius: 2px;
     align-items: center;
     display: flex;
-    color: #000000;
-}
-.wrap2{
-    color: #000000;
-}
-.bg-chat{
-    position: absolute;
-    width: 100%;
+    box-shadow: 0px 0px 8px -1px #9CC4FF;
+    border: 1px dashed #9CC4FF;
+    outline: 5px solid #fff;
+    background: #fff;
+    color: #000;
 }
 .donate {
     margin: 0 auto;      
-    min-width: 60%;
+    min-width: 40%;
     padding: 0px;
     background: none;
     box-shadow: none;
@@ -105,7 +86,11 @@ body {
 .bg-donate{
     position: absolute;
     width: 100%;
-    left: -3px;
+    top: 0;
+}
+.bg-donate2{
+    position: absolute;
+    width: 80%;
 }
 .container-teks{
     font-weight: bold;
@@ -117,14 +102,14 @@ body {
     text-align: center;
     color: #000000;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 8px;
     z-index: 2;
 }
 .tr{
     position: absolute;
-    right: -10px;
-    width: 45px;
-    top: -18px;
+    right: -12px;
+    width: 35px;
+    top: -8px;
 }
 .tr2{
     width: 45px;
@@ -153,18 +138,18 @@ body {
     position: absolute;
     right: -13px;
     width: 50px;
-    bottom: -10px;
+    bottom: -5px;
     z-index: 2;
 }
 .br2{
     width: 40px;
-    right: -10px;
+    right: -9px;
     bottom: -6px;
 }
 .br3{
-    width: 50px;
+    width: 35px;
     bottom: -8px;
-    right: -15px;
+    right: -10px;
 }
 .br4{
     width: 60px;
@@ -175,18 +160,18 @@ body {
 .bl{
     position: absolute;
     width: 50px;
-    left: -9px;
-    bottom: -5px;
+    left: -23px;
+    bottom: -12px;
 }
 .bl2{
-    width: 35px;
-    left: -9px;
-    bottom: -2px;
+    width: 55px;
+    left: -13px;
+    bottom: -12px;
 }
 .bl3{
-    width: 65px;
-    bottom: -11px;
-    left: -18px;
+    width: 55px;
+    bottom: -9px;
+    left: -20px;
 }
 .bl4{
     width: 45px;
@@ -227,8 +212,8 @@ body {
 }
 .mid{
     position: absolute;
-    width: 100%;
-    bottom: -2px;
+    width: 30%;
+    top: -40px;
     z-index: 1;
 }
 .icone{
@@ -256,7 +241,10 @@ body {
     right: -60px;
 }
 .nama-pengirim{
-    color: #9A0D0D;
+    color: #A41414;
+}
+.nama-pengirim2{
+    color: #fff;
 }
 .garis{
     position: absolute;
