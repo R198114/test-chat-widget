@@ -1,16 +1,16 @@
 body {
     font-family: sans-serif;
-    background: #ffffff;
+    background: #fff;
     display: flex;              
     flex-direction: column;     
     align-items: center;        
-    gap: 60px;                  
+    gap: 40px;                  
     padding: 20px;             
     min-height: 100vh;         
 }
 .container-nama {
     color: #ffffff;
-    background: #3B1D1D;
+    background: #C9B9E1;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -21,42 +21,42 @@ body {
     max-width: 90%;
     max-height: 15px;
     position: absolute;
-    right: 45px;
-    top: -5px;
+    right: 15px;
+    top: -10px;
     z-index: 2;
 }
 .container-nama2 {
     color: #ffffff;
-    background: #3B1D1D;
+    background: #AABFEB;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    min-width: 20%;
+    min-width: 30%;
     max-width: 90%;
     max-height: 15px;
     position: absolute;
-    left: 30px;
-    top: -2px;
+    left: 15px;
+    top: -10px;
     z-index: 2;
 }
 .container-nama3 {
     color: #ffffff;
-    background: #3B1D1D;
+    background: #FE8E8E;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    min-width: 20%;
+    min-width: 30%;
     max-width: 90%;
     max-height: 15px;
     position: absolute;
-    right: 25px;
-    top: 2px;
+    left: 15px;
+    top: -10px;
     z-index: 2;
 }
 .bg-nama{
@@ -77,21 +77,27 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     width: fit-content;
-    min-width: 40%;
+    min-width: 60%;
     max-width: 80%;
     margin: 0 auto;
+    margin-top: 15px;
     padding: 10px 0px;        
     border-radius: 12px;
     align-items: center;
     display: flex;
-    color: #000000;
+    border: 2px solid #C9B9E1;
+    background: #fff;
+    color: #000;
 }
 .wrap2{
     color: #000000;
+    border: 2px solid #9CC4FF;
+    background: #ffffff;
 }
-.bg-chat{
-    position: absolute;
-    width: 100%;
+.wrap3{
+    color: #000000;
+    border: 2px solid #F3AFBE;
+    background: #ffffff;
 }
 .donate {
     margin: 0 auto;      
@@ -100,7 +106,19 @@ body {
     background: none;
     box-shadow: none;
     outline: none;
-    border: none;
+    border: 1px solid #F6F600;
+}
+.hinand{
+    position: absolute;
+    width: 60px;
+    right: -16px;
+    bottom: -8px;
+}
+.hirid{
+    position: absolute;
+    width: 60px;
+    left: -13px;
+    top: -20px;
 }
 .bg-donate{
     position: absolute;
@@ -122,19 +140,19 @@ body {
 }
 .tr{
     position: absolute;
-    right: -10px;
-    width: 45px;
-    top: -18px;
+    right: 10px;
+    width: 55px;
+    top: -26px;
 }
 .tr2{
     width: 45px;
-    right: -15px;
-    top: -20px;
+    right: 25px;
+    top: -33px;
 }
 .tr3{
-    width: 60px;
-    top: -30px;
-    right: -25px;
+    width: 18px;
+    top: -10px;
+    right: 25px;
 }
 .tr4{
     right: 5px;
@@ -162,12 +180,12 @@ body {
     bottom: -6px;
 }
 .br3{
-    width: 50px;
+    width: 18px;
     bottom: -8px;
     right: -15px;
 }
 .br4{
-    width: 60px;
+    width: 18px;
     right: -8px;
     bottom: -15px;
     z-index: 2;
@@ -175,8 +193,8 @@ body {
 .bl{
     position: absolute;
     width: 50px;
-    left: -9px;
-    bottom: -5px;
+    left: -12px;
+    bottom: -10px;
 }
 .bl2{
     width: 35px;
@@ -184,14 +202,14 @@ body {
     bottom: -2px;
 }
 .bl3{
-    width: 65px;
+    width: 42px;
     bottom: -11px;
-    left: -18px;
+    left: -15px;
 }
 .bl4{
-    width: 45px;
-    bottom: -7px;
-    left: -18px;
+    width: 18px;
+    bottom: -8px;
+    left: 18px;
 }
 .bl5{
     bottom: -1px;
@@ -199,9 +217,9 @@ body {
 }
 .tl{
     position: absolute;
-    width: 45px;
-    left: -12px;
-    top: -18px;
+    width: 35px;
+    left: -2px;
+    top: -28px;
 }
 .tl2{
     width: 50px;
@@ -233,15 +251,15 @@ body {
 }
 .icone{
     position: absolute;
-    width: 25px;
-    top: -15px;
+    width: 35px;
+    top: -25px;
     left: 6px;
     z-index: 3;
 }
 .icone2{
     position: absolute;
-    width: 25px;
-    top: -15px;
+    width: 30px;
+    top: -25px;
     right: 6px;
     z-index: 3;
 }
@@ -256,7 +274,7 @@ body {
     right: -60px;
 }
 .nama-pengirim{
-    color: #9A0D0D;
+    color: #FE8E8E;
 }
 .garis{
     position: absolute;

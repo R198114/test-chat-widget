@@ -1,16 +1,16 @@
 body {
     font-family: sans-serif;
-    background: #ffffff;
+    background: #FBD3ED;
     display: flex;              
     flex-direction: column;     
     align-items: center;        
-    gap: 60px;                  
+    gap: 35px;                  
     padding: 20px;             
     min-height: 100vh;         
 }
 .container-nama {
     color: #ffffff;
-    background: #3B1D1D;
+    background: #AABFEB;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -21,13 +21,14 @@ body {
     max-width: 90%;
     max-height: 15px;
     position: absolute;
-    right: 45px;
-    top: -5px;
+    right: 15px;
+    top: -10px;
     z-index: 2;
 }
 .container-nama2 {
-    color: #ffffff;
-    background: #3B1D1D;
+    color: #000;
+    background: #fff;
+    border: 3px solid #CDBDFF;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -38,26 +39,8 @@ body {
     max-width: 90%;
     max-height: 15px;
     position: absolute;
-    left: 30px;
-    top: -2px;
-    z-index: 2;
-}
-.container-nama3 {
-    color: #ffffff;
-    background: #3B1D1D;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    min-width: 20%;
-    max-width: 90%;
-    max-height: 15px;
-    position: absolute;
-    right: 25px;
-    top: 2px;
-    z-index: 2;
+    left: 15px;
+    top: -5px;
 }
 .bg-nama{
     position: absolute;
@@ -67,7 +50,6 @@ body {
 .nama{
     position: relative;
     display: flex;
-    overflow: hidden;
     font-weight: bold;
     font-size: 7px;
 }
@@ -77,25 +59,21 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     width: fit-content;
-    min-width: 40%;
+    min-width: 60%;
     max-width: 80%;
     margin: 0 auto;
-    padding: 10px 0px;        
-    border-radius: 12px;
+    margin-top: 15px;
+    padding: 5px 0px;        
+    border-radius: 50px;
     align-items: center;
     display: flex;
-    color: #000000;
-}
-.wrap2{
-    color: #000000;
-}
-.bg-chat{
-    position: absolute;
-    width: 100%;
+    box-shadow: 0px 0px 10px 8px #C4B2FF inset;
+    background: #fff;
+    color: #000;
 }
 .donate {
     margin: 0 auto;      
-    min-width: 60%;
+    min-width: 40%;
     padding: 0px;
     background: none;
     box-shadow: none;
@@ -105,7 +83,12 @@ body {
 .bg-donate{
     position: absolute;
     width: 100%;
-    left: -3px;
+    top: 0;
+    left: 15px;
+}
+.bg-donate2{
+    position: absolute;
+    width: 80%;
 }
 .container-teks{
     font-weight: bold;
@@ -117,14 +100,14 @@ body {
     text-align: center;
     color: #000000;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 8px;
     z-index: 2;
 }
 .tr{
     position: absolute;
-    right: -10px;
-    width: 45px;
-    top: -18px;
+    right: -3px;
+    width: 35px;
+    top: -8px;
 }
 .tr2{
     width: 45px;
@@ -151,20 +134,20 @@ body {
 }
 .br{
     position: absolute;
-    right: -13px;
-    width: 50px;
-    bottom: -10px;
+    right: 3px;
+    width: 20px;
+    bottom: 1px;
     z-index: 2;
 }
 .br2{
     width: 40px;
-    right: -10px;
+    right: -9px;
     bottom: -6px;
 }
 .br3{
-    width: 50px;
+    width: 35px;
     bottom: -8px;
-    right: -15px;
+    right: -10px;
 }
 .br4{
     width: 60px;
@@ -174,19 +157,19 @@ body {
 }
 .bl{
     position: absolute;
-    width: 50px;
-    left: -9px;
-    bottom: -5px;
+    width: 30px;
+    left: -5px;
+    bottom: -2px;
 }
 .bl2{
     width: 35px;
-    left: -9px;
-    bottom: -2px;
+    left: -10px;
+    bottom: -1px;
 }
 .bl3{
-    width: 65px;
-    bottom: -11px;
-    left: -18px;
+    width: 45px;
+    bottom: -4px;
+    left: -9px;
 }
 .bl4{
     width: 45px;
@@ -227,23 +210,29 @@ body {
 }
 .mid{
     position: absolute;
-    width: 100%;
-    bottom: -2px;
+    width: 30%;
+    top: -40px;
     z-index: 1;
 }
 .icone{
     position: absolute;
     width: 25px;
-    top: -15px;
-    left: 6px;
+    top: -2px;
+    right: -30px;
     z-index: 3;
 }
 .icone2{
     position: absolute;
-    width: 25px;
-    top: -15px;
-    right: 6px;
+    width: 20px;
+    top: -8px;
+    right: -20px;
     z-index: 3;
+}
+.love{
+    position: absolute;
+    width: 10px;
+    left: 12px;
+    top: -3px;
 }
 .profile{
     position: absolute;
@@ -256,7 +245,10 @@ body {
     right: -60px;
 }
 .nama-pengirim{
-    color: #9A0D0D;
+    color: #A41414;
+}
+.nama-pengirim2{
+    color: #fff;
 }
 .garis{
     position: absolute;
